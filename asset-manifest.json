@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ppit_company_assignment/static/css/main.6d6a3be4.css",
+    "main.js": "/ppit_company_assignment/static/js/main.40adbdb5.js",
+    "static/js/453.5e7e380d.chunk.js": "/ppit_company_assignment/static/js/453.5e7e380d.chunk.js",
+    "index.html": "/ppit_company_assignment/index.html",
+    "main.6d6a3be4.css.map": "/ppit_company_assignment/static/css/main.6d6a3be4.css.map",
+    "main.40adbdb5.js.map": "/ppit_company_assignment/static/js/main.40adbdb5.js.map",
+    "453.5e7e380d.chunk.js.map": "/ppit_company_assignment/static/js/453.5e7e380d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d6a3be4.css",
+    "static/js/main.40adbdb5.js"
+  ]
+}
