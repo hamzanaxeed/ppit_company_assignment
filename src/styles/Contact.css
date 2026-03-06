@@ -5,11 +5,11 @@
 
 /* Contact Hero */
 .contact-hero {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
-  color: white;
+  background: var(--section-bg);
+  color: var(--section-text);
   text-align: center;
   padding: 100px 2rem;
-  border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+  border-bottom: 1px solid var(--border);
   position: relative;
   overflow: hidden;
 }
@@ -39,8 +39,8 @@
 
 .contact-hero p {
   font-size: 1.3rem;
-  opacity: 0.85;
-  color: #cbd5e1;
+  opacity: 0.95;
+  color: var(--muted-2);
   position: relative;
   z-index: 2;
 }
@@ -57,12 +57,12 @@
 
 /* Contact Info */
 .contact-info {
-  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  background: var(--card-bg);
   padding: 3rem;
   border-radius: 15px;
   height: fit-content;
-  border: 1px solid rgba(139, 92, 246, 0.2);
-  backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(6px);
 }
 
 .contact-info h2 {
@@ -89,13 +89,13 @@
 
 .info-item h4 {
   font-size: 1.1rem;
-  color: white;
+  color: var(--text-color);
   margin-bottom: 0.8rem;
   font-weight: 700;
 }
 
 .info-item p {
-  color: #cbd5e1;
+  color: var(--muted-2);
   font-size: 1rem;
   line-height: 1.7;
   margin: 0.4rem 0;
@@ -115,7 +115,7 @@
 
 .social-links h4 {
   font-size: 1.1rem;
-  color: white;
+  color: var(--text-color);
   margin-bottom: 1rem;
   font-weight: 700;
 }
@@ -129,7 +129,7 @@
 .social-icon {
   width: 45px;
   height: 45px;
-  background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+  background: var(--accent-gradient);
   color: white;
   display: flex;
   align-items: center;
@@ -138,7 +138,7 @@
   text-decoration: none;
   font-weight: bold;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+  box-shadow: var(--shadow);
 }
 
 .social-icon:hover {
@@ -150,7 +150,7 @@
 /* Contact Form */
 .contact-form-container h2 {
   font-size: 2rem;
-  background: linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%);
+  background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -165,8 +165,8 @@
   border-radius: 10px;
   margin-bottom: 1.5rem;
   animation: slideDown 0.3s ease;
-  border: 1px solid rgba(16, 185, 129, 0.3);
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2);
+  border: 1px solid rgba(16, 185, 129, 0.15);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.08);
 }
 
 @keyframes slideDown {
@@ -193,7 +193,7 @@
 
 .form-group label {
   font-size: 1rem;
-  color: white;
+  color: var(--text-color);
   margin-bottom: 0.6rem;
   font-weight: 600;
 }
@@ -201,18 +201,18 @@
 .form-group input,
 .form-group textarea {
   padding: 0.9rem 1rem;
-  border: 2px solid rgba(139, 92, 246, 0.2);
+  border: 2px solid var(--card-border);
   border-radius: 8px;
   font-size: 1rem;
   font-family: inherit;
   transition: all 0.3s ease;
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-  color: white;
+  background: var(--card-bg);
+  color: var(--text-color);
 }
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-  color: #64748b;
+  color: var(--muted);
 }
 
 .form-group input:focus,
@@ -228,7 +228,7 @@
 }
 
 .submit-button {
-  background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+  background: var(--accent-gradient);
   color: white;
   padding: 14px 35px;
   border: none;
@@ -238,7 +238,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top: 1rem;
-  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+  box-shadow: var(--shadow);
 }
 
 .submit-button:hover {
@@ -256,7 +256,7 @@
   padding: 80px 2rem;
   max-width: 1400px;
   margin: 0 auto;
-  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  background: var(--section-bg);
 }
 
 .faq-section h2 {
@@ -277,13 +277,13 @@
 }
 
 .faq-item {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  background: var(--card-bg);
   padding: 2.5rem;
   border-radius: 15px;
-  border: 1px solid rgba(139, 92, 246, 0.2);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow);
   transition: all 0.4s ease;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
 }
 
 .faq-item:hover {
@@ -294,13 +294,13 @@
 
 .faq-item h4 {
   font-size: 1.15rem;
-  color: #06b6d4;
+  color: var(--accent);
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
 .faq-item p {
-  color: #cbd5e1;
+  color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.8;
 }

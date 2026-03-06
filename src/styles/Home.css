@@ -5,8 +5,8 @@
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
-  color: white;
+  background: var(--section-bg);
+  color: var(--section-text);
   padding: 120px 2rem 80px;
   display: flex;
   align-items: center;
@@ -65,8 +65,8 @@
 .hero-content p {
   font-size: 1.25rem;
   margin: 0 0 2.5rem 0;
-  opacity: 0.85;
-  color: #cbd5e1;
+  opacity: 0.95;
+  color: var(--muted-2);
   line-height: 1.6;
 }
 
@@ -83,7 +83,7 @@
 .code-animation {
   font-size: 8rem;
   font-weight: 900;
-  background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+  background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -93,8 +93,8 @@
 
 .cta-button {
   display: inline-block;
-  background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
-  color: white;
+  background: var(--accent-gradient);
+  color: var(--section-text);
   padding: 14px 35px;
   border-radius: 50px;
   text-decoration: none;
@@ -103,12 +103,12 @@
   border: 2px solid transparent;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+  box-shadow: var(--shadow);
 }
 
 .cta-button:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.5);
+  box-shadow: var(--shadow);
   filter: brightness(1.1);
 }
 
@@ -123,8 +123,8 @@
 .features h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: white;
-  background: linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%);
+  color: var(--text-color);
+  background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -138,14 +138,14 @@
 }
 
 .feature-card {
-  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  background: var(--card-bg);
   padding: 2.5rem;
   border-radius: 15px;
-  border: 1px solid rgba(139, 92, 246, 0.2);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow);
   transition: all 0.4s ease;
   text-align: center;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
 }
 
 .feature-card:hover {
@@ -162,32 +162,32 @@
 }
 
 .feature-card h3 {
-  color: white;
+  color: var(--text-color);
   margin-bottom: 1rem;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
 .feature-card p {
-  color: #cbd5e1;
+  color: var(--muted);
   line-height: 1.7;
 }
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
-  color: white;
+  background: var(--section-bg);
+  color: var(--section-text);
   padding: 80px 2rem;
   text-align: center;
   margin-top: 60px;
-  border-top: 1px solid rgba(139, 92, 246, 0.2);
-  border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }
 
 .cta-section h2 {
   font-size: 2.8rem;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+  background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -196,13 +196,13 @@
 .cta-section p {
   font-size: 1.15rem;
   margin-bottom: 2.5rem;
-  opacity: 0.85;
-  color: #cbd5e1;
+  opacity: 0.95;
+  color: var(--muted-2);
 }
 
 .cta-button-secondary {
   display: inline-block;
-  background: linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%);
+  background: var(--accent-gradient);
   color: white;
   padding: 14px 35px;
   border-radius: 50px;
@@ -210,12 +210,12 @@
   font-weight: 700;
   transition: all 0.3s ease;
   border: 2px solid transparent;
-  box-shadow: 0 4px 15px rgba(6, 182, 212, 0.3);
+  box-shadow: var(--shadow);
 }
 
 .cta-button-secondary:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(6, 182, 212, 0.5);
+  box-shadow: var(--shadow);
 }
 
 /* Animations */

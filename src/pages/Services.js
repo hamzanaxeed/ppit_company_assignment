@@ -18,12 +18,15 @@ export default function Services() {
             faster, smarter decisions.
           </p>
           <ul className="service-list">
+
             <li>AI Legal Assistant</li>
             <li>AI Sales Strategist</li>
+
             <li>AI Healthcare Analyst</li>
             <li>Custom Domain Experts</li>
           </ul>
         </div>
+        
 
         <div className="service-card">
           <div className="service-icon">⚙️</div>

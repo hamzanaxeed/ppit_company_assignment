@@ -31,11 +31,23 @@ body,
 /* Theme variables */
 :root {
   --bg-color: #f5f5f5;
-  --text-color: #111827;
-  --app-bg: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-  --nav-bg: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
-  --nav-link-color: #e2e8f0;
+    --text-color: #000000;
+  --app-bg: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  --nav-bg: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  --nav-link-color: #334155;
   --card-bg: #ffffff;
+  --section-bg: linear-gradient(135deg, #ffffff, #f8fafc);
+    --section-text: #000000;
+  --muted: #64748b;
+  --muted-2: #94a3b8;
+  --accent: #06b6d4;
+  --accent-2: #8b5cf6;
+  --accent-gradient: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  --card-border: rgba(15, 23, 42, 0.06);
+  --border: rgba(15, 23, 42, 0.08);
+  --shadow: 0 8px 32px rgba(2,6,23,0.06);
+  --footer-bg: linear-gradient(135deg, #f8fafc, #ffffff);
+  --footer-text: #334155;
 }
 
 /* Dark theme overrides applied when ThemeContext sets data-theme="dark" on <html> */
@@ -46,6 +58,18 @@ html[data-theme="dark"] {
   --nav-bg: linear-gradient(135deg, #071226 0%, #0b1220 50%, #071226 100%);
   --nav-link-color: #cfe8ff;
   --card-bg: #0f1724;
+  --section-bg: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  --section-text: #e6eef8;
+  --muted: #94a3b8;
+  --muted-2: #cbd5e1;
+  --accent: #06b6d4;
+  --accent-2: #8b5cf6;
+  --accent-gradient: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  --card-border: rgba(139, 92, 246, 0.12);
+  --border: rgba(139, 92, 246, 0.12);
+  --shadow: 0 8px 32px rgba(0,0,0,0.5);
+  --footer-bg: linear-gradient(135deg, #071226, #0b1220);
+  --footer-text: #cbd5e1;
 }
 
 /* Ensure all headings have consistent styling */
